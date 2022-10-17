@@ -22,7 +22,7 @@ module.exports = merge(common, {
     // * 添加不会被去除的包注释。
     new webpack.BannerPlugin({
       raw: true,
-      banner: '/** @preserve Powered by react-ts-template (https://github.com/MYWProgram/react-ts-template) */'
+      banner: '/** @preserve Powered by react-ts-template (https://github.com/closer58/react-ts-template) */'
     }),
     // * 打包分析器。
     shouldOpenAnalyzer &&
